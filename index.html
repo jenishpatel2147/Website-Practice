@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Climate Helper</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap and Javascript -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome--->
+  <link href="Font_Awesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container_fluid">
+
+      <!-- Navigation Bar--->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/climate.png" width="35" height="35" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navigation Bar Ends--->
+      <div class="row">
+        <div class="col-lg-6">
+          <div>
+            <h1 class="front_title"><strong>The difference we can make together.</strong></h1>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-success btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Anything smaller will take up both sides--->
+          <div>
+            <img src="images/iphone6.png" alt="iphone-mockup" class="rotate20">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container_fluid">
+      <div class="row">
+        <div class="item col-lg-4">
+          <button type="button" class="btn btn-custom"><i class="icon fas fa-tree fa-4x"></i> </button>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="item col-lg-4">
+          <button type="button" class="btn btn-custom"><i class="icon fas fas fa-bullseye fa-4x"></i></button>
+          <h3>Elite Stats</h3>
+          <p>We have great stats with excellent accuracy.</p>
+        </div>
+        <div class="item col-lg-4">
+          <button type="button" class="btn btn-custom"><i class="icon fas fa-heart fa-4x"></i></button>
+          <h3>Guaranteed to work.</h3>
+          <p>Get excellent stats for your area or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonials-slider" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="test">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="test">Longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Kingston, California</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="test">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Howdy, Texas</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Press -->
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="container_fluid">
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-large btn-outline-success btn-custom">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-large btn-outline-success btn-custom">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-large btn-outline-success btn-custom">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h3 class="end_sentence">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg down-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-success btn-lg down-button"><i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <button type="button" class="btn padding"><i class="fab fa-twitter"></i></button>
+    <button type="button" class="btn padding"><i class="fab fa-facebook-f"></i></button>
+    <button type="button" class="btn padding"><i class="fab fa-instagram"></i></button>
+    <button type="button" class="btn padding"><i class="fas fa-envelope"></i></button>
+    <p class="padder">© Copyright 2020 Jenish Patel, Climate Changer</p>
+
+  </footer>
+
+
+</body>
+
+</html>
