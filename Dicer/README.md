@@ -1,4 +1,4 @@
-Dicer
+# Dicer
 Flips a Dice between 2 players
 
 - Flips a dice between 2 players, 
